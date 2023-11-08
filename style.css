@@ -16,8 +16,8 @@ body, html {
     /* Add more styling here */
 }
 
-.material-extraction {
-    top: 50%;  /* Adjust these values based on your image */
+.material {
+    top: 50%;  /* 位置を調整 */
     left: 20%;
 }
 
@@ -36,12 +36,7 @@ body, html {
     left: 50%;
 }
 
-.arrow-image {
-    width: 100%;
+.image-display img {
+    width: 100%; /* 画像のサイズを矢印画像と同程度に調整 */
     height: auto;
-}
-
-.image-display {
-    margin-top: 20px;
-    text-align: center;
 }
