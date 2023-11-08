@@ -43,8 +43,3 @@ body, html {
     top: 75%;  /* 縦方向: 画像の上から75％ */
     left: 80%; /* 横方向: 画像の左から80％ */
 }
-
-.image-display img {
-    width: 100%; /* コンテナ幅に合わせる */
-    height: auto; /* 高さを自動調整 */
-}
