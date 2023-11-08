@@ -5,8 +5,9 @@ body, html {
 }
 
 .container {
-    position: relative;
-    text-align: center;
+    width: 100%; /* 画面幅に合わせる */
+    max-width: 600px; /* 最大幅を設定 */
+    margin: 0 auto; /* 中央揃え */
 }
 
 .text {
@@ -35,11 +36,11 @@ body, html {
 }
 
 .arrow-image {
-    max-width: 100%; /* 最大幅を画面幅に合わせる */
-    height: auto;   /* 高さを自動調整 */
+    width: 100%; /* コンテナ幅に合わせる */
+    height: auto; /* 高さを自動調整 */
 }
 
 .image-display img {
-    width: 100%; /* 画像のサイズを矢印画像と同程度に調整 */
-    height: auto;
+    width: 100%; /* コンテナ幅に合わせる */
+    height: auto; /* 高さを自動調整 */
 }
