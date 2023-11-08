@@ -1,0 +1,47 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.text {
+    position: absolute;
+    cursor: pointer;
+    /* Add more styling here */
+}
+
+.material-extraction {
+    top: 50%;  /* Adjust these values based on your image */
+    left: 20%;
+}
+
+.production {
+    top: 50%;
+    right: 20%;
+}
+
+.distribution {
+    bottom: 20%;
+    left: 50%;
+}
+
+.disposal {
+    top: 20%;
+    left: 50%;
+}
+
+.arrow-image {
+    width: 100%;
+    height: auto;
+}
+
+.image-display {
+    margin-top: 20px;
+    text-align: center;
+}

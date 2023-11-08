@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="arrow.png" alt="Arrow" class="arrow-image">
+        <div class="text material-extraction" onclick="showImage('material-extraction')">Material Extraction</div>
+        <div class="text production" onclick="showImage('production')">Production</div>
+        <div class="text distribution" onclick="showImage('distribution')">Distribution</div>
+        <div class="text disposal" onclick="showImage('disposal')">Disposal</div>
+    </div>
+
+    <div class="image-display">
+        <!-- Images will be displayed here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
