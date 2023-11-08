@@ -1,4 +1,3 @@
-
 body, html {
     height: 100%;
     margin: 0;
@@ -13,27 +12,31 @@ body, html {
 .text {
     position: absolute;
     cursor: pointer;
-    /* Add more styling here */
 }
 
 .material {
     top: 50%;  /* 位置を調整 */
-    left: 20%;
+    left: 10%; /* これらの値は画像に合わせて調整 */
 }
 
 .production {
     top: 50%;
-    right: 20%;
+    left: 30%; /* 各テキストの位置を調整 */
 }
 
 .distribution {
-    bottom: 20%;
+    top: 50%;
     left: 50%;
 }
 
 .disposal {
-    top: 20%;
-    left: 50%;
+    top: 50%;
+    left: 70%;
+}
+
+.arrow-image {
+    max-width: 100%; /* 最大幅を画面幅に合わせる */
+    height: auto;   /* 高さを自動調整 */
 }
 
 .image-display img {
