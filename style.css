@@ -4,43 +4,47 @@ body, html {
     font-family: Arial, sans-serif;
 }
 
+/* コンテナと画像のスタイリング */
 .container {
     position: relative;
-    text-align: center;
-}
-
-.text {
-    position: absolute;
-    cursor: pointer;
-    /* Add more styling here */
-}
-
-.material-extraction {
-    top: 50%;  /* Adjust these values based on your image */
-    left: 20%;
-}
-
-.production {
-    top: 50%;
-    right: 20%;
-}
-
-.distribution {
-    bottom: 20%;
-    left: 50%;
-}
-
-.disposal {
-    top: 20%;
-    left: 50%;
+    width: 100%; /* 画面幅に合わせる */
+    max-width: 600px; /* 最大幅を設定 */
+    margin: 0 auto; /* 中央揃え */
 }
 
 .arrow-image {
-    width: 100%;
-    height: auto;
+    width: 100%; /* コンテナ幅に合わせる */
+    height: auto; /* 高さを自動調整 */
 }
 
-.image-display {
-    margin-top: 20px;
-    text-align: center;
+/* テキストの位置調整 */
+.text {
+    position: absolute;
+    cursor: pointer;
+    /* 共通のスタイリング、例えばフォントサイズ、色など */
+}
+
+.material {
+    top: 25%;  /* 縦方向: 画像の上から25％ */
+    left: 5%; /* 横方向: 画像の左から20％ */
+}
+
+.production {
+    top: 75%;  /* 縦方向: 画像の上から75％ */
+    left: 25%; /* 横方向: 画像の左から40％ */
+}
+
+.distribution {
+    top: 25%;  /* 縦方向: 画像の上から25％ */
+    left: 45%; /* 横方向: 画像の左から60％ */
+}
+
+.disposal {
+    top: 75%;  /* 縦方向: 画像の上から75％ */
+    left: 65%; /* 横方向: 画像の左から80％ */
+}
+
+.image-display img {
+    width: 100%; /* コンテナ幅に合わせる */
+    height: auto; /* 高さを自動調整 */
 }
