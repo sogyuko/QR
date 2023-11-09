@@ -4,47 +4,53 @@ body, html {
     font-family: Arial, sans-serif;
 }
 
-/* コンテナと画像のスタイリング */
 .container {
     position: relative;
-    width: 100%; /* 画面幅に合わせる */
-    max-width: 600px; /* 最大幅を設定 */
-    margin: 0 auto; /* 中央揃え */
+    text-align: center;
 }
 
-.arrow-image {
-    width: 100%; /* コンテナ幅に合わせる */
-    height: auto; /* 高さを自動調整 */
+/* Add new logo image styling */
+.logo-image {
+    max-width: 100px; /* Adjust the width as necessary */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Position it absolutely within the relative container */
+    top: 10px; /* Adjust the top position as necessary */
+    left: 50%; /* Center the logo horizontally */
+    transform: translateX(-50%); /* Adjust horizontal position to truly center the logo */
 }
 
-/* テキストの位置調整 */
 .text {
     position: absolute;
     cursor: pointer;
-    /* 共通のスタイリング、例えばフォントサイズ、色など */
+    /* Add more styling here */
 }
 
-.material {
-    top: 25%;  /* 縦方向: 画像の上から25％ */
-    left: 5%; /* 横方向: 画像の左から20％ */
+.material-extraction {
+    top: 50%;  /* Adjust these values based on your image */
+    left: 20%;
 }
 
 .production {
-    top: 75%;  /* 縦方向: 画像の上から75％ */
-    left: 25%; /* 横方向: 画像の左から40％ */
+    top: 50%;
+    right: 20%;
 }
 
 .distribution {
-    top: 25%;  /* 縦方向: 画像の上から25％ */
-    left: 45%; /* 横方向: 画像の左から60％ */
+    bottom: 20%;
+    left: 50%;
 }
 
 .disposal {
-    top: 75%;  /* 縦方向: 画像の上から75％ */
-    left: 65%; /* 横方向: 画像の左から80％ */
+    top: 20%;
+    left: 50%;
 }
 
-.image-display img {
-    width: 100%; /* コンテナ幅に合わせる */
-    height: auto; /* 高さを自動調整 */
+.arrow-image {
+    width: 100%;
+    height: auto;
+}
+
+.image-display {
+    margin-top: 20px;
+    text-align: center;
 }
